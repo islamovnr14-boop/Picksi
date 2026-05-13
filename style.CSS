@@ -1,0 +1,267 @@
+    footer{
+        display: grid;
+            grid-template-rows: repeat(2,1fr);
+            grid-template-columns:repeat(2,1fr);
+            
+            
+            grid-template-areas:
+                "zona1 zona3"
+                "zona2 zona4"
+                
+            ;
+    }
+
+
+    .footer-predpotchenia{
+        list-style: none;
+        margin:10px;
+        padding:10px;
+    }
+
+    .footer-header{
+        grid-area: zona1;
+        
+         
+        
+    }
+    .footer-spisok1{
+        grid-area: zona2;
+        list-style: none;
+        margin:10px;
+        padding:10px;
+
+
+
+    }
+    .footer-info{
+        grid-area: zona3;
+        
+    }
+    .footer-spisok2{
+        grid-area: zona4;
+        list-style: none;
+        margin:10px;
+        padding:10px;
+        
+    }
+
+
+
+
+
+
+
+
+    .nav-list{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        
+        gap: 20px;
+        font-size: 32px;
+        font-family: "Chiron GoRound TC", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-weight: 500;
+        padding: 0px 20px;
+        
+    }
+    .nav-group-right,.nav-group-left{
+        display: flex;
+        gap: 130px;
+    }
+    .nav-item a{
+        text-decoration: none;
+        
+    }
+    
+    .drop-down-list{
+        list-style: none;
+        padding: 10px;
+        display:block;
+        opacity: 0%;
+        border-radius: 25px;
+        border: 3px solid #50589C;
+       
+        background-color: #4261cf ;
+        position: absolute;
+        right: 20px;
+        text-align: right;
+        transition: opacity 1s;
+        
+    }
+    .contact:hover .drop-down-list{
+        opacity: 100%;
+    }
+    
+    
+    .nav-header{
+        border-radius: 50px;
+        border: 3px solid #50589C;
+       
+        background-color: #6E8CFB; ;
+        position: sticky;
+        padding: 16px 0px;
+        margin: 0px;
+    }
+    
+    .мал-пикси {
+        width: 10%;
+        border-radius: 15px;
+    }
+
+    ul {
+        list-style: disc;
+        margin: 0px;
+    }
+
+    body {
+        padding: 0px;
+        margin: 0px;
+        background-color: #4261cf;
+        color: #232b55;
+
+        font-family: "Comic Relief", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        
+
+
+    }
+
+    .description-main-header {
+        font-size: 36px;
+    }
+
+    .main-header {
+        font-size: 66px;
+
+        font-family: "Chiron GoRound TC", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+    }
+
+    .з-история {
+        font-size: 56px;
+
+        font-family: "Chiron GoRound TC", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+    }
+
+    .like {
+        font-size: 56px;
+
+        font-family: "Chiron GoRound TC", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+    }
+
+    .doesnt-like {
+        font-size: 56px;
+
+        font-family: "Chiron GoRound TC", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+    }
+
+    .lybit {
+        font-size: 36px;
+
+    }
+
+    .ne-lybit {
+        font-size: 36px;
+    }
+
+    .text-1 {
+        font-size: 36px;
+    }
+
+    .z-fakti {
+        font-size: 56px;
+
+        font-family: "Chiron GoRound TC", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+    }
+
+
+
+
+
+
+    .nlikes {
+        border: 3px solid #50589C;
+        padding: 0px;
+        background-color: #6E8CFB;
+        margin: 20px 0px;
+        padding: 20px;
+        border-radius: 50px;
+        transition: transform 2s, background-color 2s;
+    }
+
+    .nlikes:hover {
+        transform: scale(0.9);
+    }
+
+    .likes {
+        border: 3px solid #50589C;
+        background-color: #6E8CFB;
+        margin: 20px 0px;
+        padding: 20px;
+        border-radius: 50px;
+        transition: transform 2s, background-color 2s;
+
+    }
+
+    .likes:hover {
+        background-color: #6E8CFB;
+        transform: scale(0.9);
+    }
+
+    .story {
+        border: 3px solid #50589C;
+        background-color: #6E8CFB;
+        margin: 20px 0px;
+        padding: 20px;
+        border-radius: 50px;
+        transition: transform 2s, background-color 2s;
+    }
+
+    .story:hover {
+        transform: scale(0.9);
+    }
+
+    .fakti {
+        border: 3px solid #50589C;
+        background-color: #6E8CFB;
+        margin: 20px 0px;
+        padding: 20px;
+        border-radius: 50px;
+        transition: transform 2s, background-color 2s;
+    }
+
+    .fakti:hover {
+        transform: scale(0.9);
+    }
+
+    .fakt {
+
+        font-size: 36px;
+    }
+
+    .material-symbols-rounded {
+        font-size: 100px;
+        font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 24
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: centers;
+    }
